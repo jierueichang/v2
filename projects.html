@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jieruei Chang</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link type='text/css' rel='stylesheet' href='style.css'>
+    </head>
+    <body onresize='close()'>
+        <nav class="topnav">
+            <div class='line' style='min-height:5px;'></div>
+            <div id='grad-navbar'>
+                <div class=container>
+                    <div class='row'>
+                        <div class='col-md-2'></div>
+                        <div class='col-md-8'>
+                        <a href = './' class='home-link'>Jieruei Chang</a>
+                        <div style='float:right'>
+                            <a href = 'projects' class='nav-link'>Projects</a>
+                            <a href = 'resume' class='nav-link'>Resume</a>
+                            <a href = 'videos' class='nav-link'>Videos</a>
+                            <a href = 'writing' class = 'nav-link'>Writing</a>
+                            <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">&#9776;</a>
+                        </div>
+                    </div>
+                    </div>
+            </div></div>
+            <div class='line' style='background-color:rgb(78, 78, 78); min-height:1px;'></div>
+        </nav>
+        <div id='hidden-dropdown'>
+            <hr>
+            <div class='hidden-dropdown-link'>
+                <a href = 'projects'>Projects</a>
+            </div><hr>
+            <div class='hidden-dropdown-link'>
+                <a href = 'resume'>Resume</a>
+            </div><hr>
+            <div class='hidden-dropdown-link'>
+                <a href = 'videos'>Videos</a>
+            </div><hr>
+            <div class='hidden-dropdown-link'>
+                    <a href = 'writing'>Writing</a>
+                </div><hr>
+        </div>
+        <div class = 'container'>
+            <div class='row'>
+                <div class='col-md-2'></div>
+                <div class='col-md-8'>
+                    <br>
+                    <h1>Projects</h1>
+                    <br>
+                    <div class='card'>
+                        <h1>ReMapper</h1><hr>
+                        <p>Interactive Map Generation for Trip Recording</p>
+                        <button class='firebutton' onclick="location.href='https://remapper.herokuapp.com'">ReMapper</button>
+                    </div>
+                    <br>
+                    <div class='card'>
+                        <h1>Conductor</h1><hr>
+                        <p>Conduct a virtual orchestra with a digital baton</p>
+                        <button class='firebutton' onclick="location.href='#'">Conductor Homepage</button>
+                    </div>
+                    <br>
+                    <div class='card'>
+                        <h1>Kalictric</h1><hr>
+                        <p>The Digital Kalimba</p>
+                        <button class='firebutton' onclick="location.href='http://www.sites.google.com/view/kalictric'">Kalictric Homepage</button>
+                    </div>
+                    <br>
+                    <div class='card'>
+                        <h1>Cricket Pi</h1><hr>
+                        <p>A little MIDI Accompanist</p>
+                        <button class='firebutton' onclick="location.href='http://sites.google.com/view/cricketpi'">Cricket Pi Homepage</button>
+                    </div>
+                    <br>
+                    <h1>Miniprojects</h1>
+                    <br>
+                    <div class='card'>
+                        <h1>Lightspark</h1><hr>
+                        <p>A place to share ideas, notes, thoughts and messages.</p>
+                        <button class='waterbutton' onclick="location.href='https://lightspark.herokuapp.com'">Lightspark</button>
+                    </div>
+                    <br>
+                    <div class='card'>
+                        <h1>Highlighter</h1><hr>
+                        <p>Graphical Python Outline Generator</p>
+                        <button class='waterbutton' onclick="location.href='https://jierueichang.github.io/highlighter'">Highlighter</button>
+                    </div>
+                    <br>
+                    <div class='card'>
+                        <h1>Kalculi</h1><hr>
+                        <p>A simple calculation tool.</p>
+                        <button class='waterbutton' onclick="location.href='https://kalculi.herokuapp.com'">Kalculi</button>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-2'></div>
+                    <div class='col-md-8'>
+                        <a href='mailto:jierueic@gmail.com'>Jieruei Chang</a>
+                        <p class='text-muted'>This is the personal website of Jieruei Chang, a carbon-based lifeform living in the Milky Way Galaxy. This website is composed of many bits of data that together form instructions that tell a computer to draw certain arrangements of pixels on a screen.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("hidden-dropdown");
+            if(x.style.display=='none'){
+                x.style.display='block';
+            }
+            else{
+                x.style.display='none';
+            }
+            }
+            function close(){
+                if(window.innerWidth>600){
+                    document.getElementById("hidden-dropdown").style.display='none';
+                }
+            }
+
+        </script>
+    </body>
+</html>

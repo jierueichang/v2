@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jieruei Chang</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link type='text/css' rel='stylesheet' href='style.css'>
+    </head>
+    <body onresize='close()'>
+        <nav class="topnav">
+            <div class='line' style='min-height:5px;'></div>
+            <div id='grad-navbar'>
+                <div class=container>
+                    <div class='row'>
+                        <div class='col-md-2'></div>
+                        <div class='col-md-8'>
+                        <a href = './' class='home-link'>Jieruei Chang</a>
+                        <div style='float:right'>
+                            <a href = 'projects' class='nav-link'>Projects</a>
+                            <a href = 'resume' class='nav-link'>Resume</a>
+                            <a href = 'videos' class='nav-link'>Videos</a>
+                            <a href = 'writing' class = 'nav-link'>Writing</a>
+                            <a href="javascript:void(0);" class="nav-link icon" onclick="myFunction()">&#9776;</a>
+                        </div>
+                    </div>
+                    </div>
+            </div></div>
+            <div class='line' style='background-color:rgb(78, 78, 78); min-height:1px;'></div>
+        </nav>
+        <div id='hidden-dropdown'>
+            <hr>
+            <div class='hidden-dropdown-link'>
+                <a href = 'projects'>Projects</a>
+            </div><hr>
+            <div class='hidden-dropdown-link'>
+                <a href = 'resume'>Resume</a>
+            </div><hr>
+            <div class='hidden-dropdown-link'>
+                <a href = 'videos'>Videos</a>
+            </div><hr>
+            <div class='hidden-dropdown-link'>
+                    <a href = 'writing'>Writing</a>
+                </div><hr>
+        </div>
+        <div class = 'container'>
+            <div class='row'>
+                <div class='col-md-2'></div>
+                <div class='col-md-8'>
+                    <br>
+                    <h1>Videos</h1>
+                    <br>
+                    <div class='card'>
+                        <h1>Congressional App Challenge Submission</h1>
+                        <hr>
+                        <iframe style="width:100%;height:360px;border-radius:0px 0px 10px 10px;border-style:none;" src="https://www.youtube.com/embed/dixEf6g9pA8">
+                        </iframe>
+                    </div>
+                    <br>
+                    <hr>
+                    <br>
+                    <div class='card'>
+                        <h1>Jabberwocky</h1>
+                        <hr>
+                        <iframe style="width:100%;height:360px;border-radius:0px 0px 10px 10px;border-style:none;" src="https://www.youtube.com/embed/ZoOW_KF0Ke0">
+                        </iframe>
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <hr>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-2'></div>
+                    <div class='col-md-8'>
+                        <a href='mailto:jierueic@gmail.com'>Jieruei Chang</a>
+                        <p class='text-muted'>This is the personal website of Jieruei Chang, a carbon-based lifeform living in the Milky Way Galaxy. This website is composed of many bits of data that together form instructions that tell a computer to draw certain arrangements of pixels on a screen.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("hidden-dropdown");
+            if(x.style.display=='none'){
+                x.style.display='block';
+            }
+            else{
+                x.style.display='none';
+            }
+            }
+            function close(){
+                if(window.innerWidth>600){
+                    document.getElementById("hidden-dropdown").style.display='none';
+                }
+            }
+
+        </script>
+    </body>
+</html>
