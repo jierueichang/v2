@@ -150,3 +150,22 @@ hr {
     padding:30px;
 }
 
+.zoomer{
+    background-image:linear-gradient(to right,rgb(240, 205, 140),wheat);
+    overflow:hidden;
+    padding:10px;
+    margin:5px;
+    display:inline-block;
+    border-radius:10px;
+    max-height:60px;
+}
+
+.zoomer-open{
+    background-image:linear-gradient(to right,rgb(240, 205, 140),wheat);
+    padding:30px;
+    margin:5px;
+    display:block;
+    border-radius:10px;
+    animation:expandcard;
+    animation-duration:0.5s;
+}

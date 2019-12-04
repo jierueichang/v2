@@ -87,6 +87,86 @@
                         <p>A boy's attempt to bully someone backfires hilariously.</p>
                     </div>
                     <hr>
+                    <h2>Poems</h2>
+                    <div class='zoomer' onclick="if(this.className=='zoomer'){this.className='zoomer-open';}else{this.className='zoomer'}">
+                        <h2>Ignorance is not a Virtue</h2>
+                        <hr>
+                        <p>I must say
+                        <br>That I strongly dislike you
+                        <br>You say that you will be supportive of me
+                        <br>But all I have seen so far
+                        <br>Are meaningless condescending words
+                        <br>
+                        <br>You must learn
+                        <br>That you are not always right
+                        <br>You may have decades of experience
+                        <br>Yet you seem to have never changed
+                        <br>
+                        <br>You must learn
+                        <br>That however well-disguised it is
+                        <br>Ignorance
+                        <br>Is not a virtue
+                        <br>For Just because you are authority
+                        <br>Does not mean you are better than me
+                        <br>
+                        <br>You yell at me nearly daily
+                        <br>But have you ever taken a breath
+                        <br>Set the rusty gears in motion
+                        <br>And allow reasoning to prevail
+                        <br>Over your cruel emotions?
+                        <br>
+                        <br>For why should I
+                        <br>Treat you with respect
+                        <br>When you have never done
+                        <br>The same for me?
+                        </p>
+                    </div>
+                    <div class='zoomer' onclick="if(this.className=='zoomer'){this.className='zoomer-open';}else{this.className='zoomer'}">
+                    <h2>Ten Minutes to Midnight</h2>
+                    <hr>
+                    <br>Tonight, long after the cold sun dipped below the horizon
+                    <br>And the stars circle above
+                    <br>In a small study-room I sit
+                    <br>A worn birch table before me
+                    <br>Topped with a neat stack of paper.
+                    <br>
+                    <br>I grasp a black gel-pen
+                    <br>Pick up a sheet with my thumb and forefinger
+                    <br>Narrow my eyes
+                    <br>Scan over the black printed letters
+                    <br>Swallow a cup of green tea
+                    <br>And begin to write - 
+                    <br>Hands moving rapidly over the pages.
+                    <br>
+                    <br>At long last I finish
+                    <br>Twenty-nine pieces of paper
+                    <br>Now with the black scribbles of words
+                    <br>Scattered all over the floor,
+                    <br>Stained with varying amounts of spilled tea.
+                    <br>
+                    <br>A glance at the ninety-cent clock - 
+                    <br>Ten minutes to midnight.
+                    </div>
+                    <div class='zoomer' onclick="if(this.className=='zoomer'){this.className='zoomer-open';}else{this.className='zoomer'}">
+                    <h2>Blurred Lines</h2>
+                    <hr>
+                    <br>The snow still lingers
+                    <br>When the first birdsong
+                    <br>Breaks the eerie silence.
+                    <br>
+                    <br>The air is still crisp
+                    <br>When the blinding sun
+                    <br>Shines its rays on the earth.
+                    <br>
+                    <br>The heat of summer still beats
+                    <br>When the leaves begin to show
+                    <br>Their inner color.
+                    <br>
+                    <br>The squirrels still scutter
+                    <br>When the first snow
+                    <br>Falls onto the landscape.
+                    </div>
+                    <hr>
                     <h2>Essays</h2>
                     <div class='springbutton'>
                         <h2><a href='https://jierueichang.github.io/writings/essays/2019/03/15/conspiracyessay.html'>The Warped Truth</a></h2>
@@ -128,7 +208,11 @@
                     document.getElementById("hidden-dropdown").style.display='none';
                 }
             }
-
+            function expand(){
+                if(this.className=='zoomer'){this.className='zoomer-open';}
+                //else{this.className='zoomer';}
+                alert(this);
+            }
         </script>
     </body>
 </html>
